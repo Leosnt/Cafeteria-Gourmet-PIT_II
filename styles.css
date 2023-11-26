@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F4F4;
+  }
+
+  #login-form {
+    margin-top: 30px;
+  }
+
+  #signup-form {
+    margin-top: 30px;
+    width: 253px;
+  }
+
+  input{
+    background-color: #F4F4F4;
+  }
+
+  label {
+    color: #FB7272;
+  }
+  
+  .text-entry {
+    color: #C7C7C7;
+  }
+
+  .text-entry.login {
+    margin: 20px 0;
+  }
+
+  .text-entry.login.icon{
+    margin: 0;
+  }
+
+
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .input-group input {
+    width: 95%;
+    padding: 6px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .buttons-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .buttons-login .submit{
+    margin-bottom: -30px;
+  }
+  
+  button {
+    width: 85%;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 16px;
+    background-color: #FB7272;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .button-cad {
+    background-color: rgb(6, 6, 255);
+  }
+
+  
+  .button-cad:hover {
+    background-color: rgb(3, 3, 185);
+  }
+
+
+  .buttons-login.cad{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(6, 6, 255);
+    width: 85%;
+    height: 45px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .buttons-login.cad a{
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .buttons-login.cad:hover{
+    background-color: rgb(3, 3, 185);
+  }
+  
+  button:hover {
+    background-color: #ee4444;
+  }
+  
+  /* Adicionei uma classe para ocultar o formulário de cadastro */
+
+  .icons-login{
+    text-align: center;
+    color: #C7C7C7;
+  }
+
+   .fa.fa-coffee{
+    color:#C7C7C7
+  }
+
+  /* Cardapio*/
+
+  .title {
+    border-bottom: 3px #FB7272 solid;
+    width: 170px;
+    height: 25px;
+    letter-spacing: 2px;
+  }
+
+  .icons-login.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1.5px #E6E6E6 solid;
+    color:#FB7272;
+    margin-bottom: 20px;
+    row-gap: 20px;
+  }
+
+  .text-coffee{
+    color:#091747;
+    font-family: 'Acme';
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .fa {
+    margin: 0 5px;
+  }
+
+  .list-itens{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+    border: 1.5px #E6E6E6 solid;
+    font-family: 'Acme';
+    font-weight: bold;
+    
+  }
+
+  .coffee-card {
+    margin-left: 5px;
+
+  }
+
+  .price {
+    margin-right: 5px;
+  }
+
+ /* Adicionei uma classe para ocultar o formulário de cadastro */
+
+
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 200px;
+  padding-right: 10px;
+  
+}
+
+.msg-error{
+  font-size: 12px;
+}
